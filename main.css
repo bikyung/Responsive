@@ -1,0 +1,129 @@
+:root {
+  --text-color: #f0f0f5;
+  --accent-color: #d49466; 
+  --background-color: #263343;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: var(--background-color)
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+header nav h2 span {
+  color: var(--text-color)
+}
+
+header nav h2 i {
+  color: var(--accent-color)
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 8px 20px;
+  color:  var(--text-color)
+}
+
+header nav div {
+  color:  var(--text-color)
+}
+
+header nav div span:last-child {
+  margin-left: 10px;
+}
+
+header nav button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: var(--background-color)
+  }
+  
+  header nav {
+    display: flex;
+    align-items: flex-start;
+    padding: 2%;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  header nav h2 span {
+    color: var(--text-color)
+  }
+  
+  header nav h2 i {
+    color: var(--accent-color)
+  }
+  
+  header nav ul {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  header nav ul.active,
+  header nav .sidebar.active {
+    display: flex;
+  }
+
+  header nav ul li:hover {
+    background-color: #d49659;
+    width: 100%;
+    text-align: center;
+  }
+  
+  header nav ul li a {
+    display: block;
+    padding: 8px 20px;
+    color: var(--text-color)
+  }
+  
+  header nav div {
+    display: none;
+    color: var(--text-color);
+    width: 100%;
+    justify-content: center;
+  }
+  
+  header nav div span:last-child {
+    margin-left: 10px;
+  }
+  
+  header nav button {
+    display: flex;
+    border-style: none;
+    color: var(--accent-color);
+    background-color: transparent;
+    position: absolute;
+    right: 1em;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+
+
+}
