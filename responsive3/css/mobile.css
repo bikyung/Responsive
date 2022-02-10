@@ -1,0 +1,45 @@
+.inner {
+  max-width: 768px;
+  padding: 0 30px; 
+  position: relative;
+  overflow: visible;
+}
+
+.inner__group {
+  display: block;
+  padding: 150px 0 100px 0;
+  
+}
+
+.picture__group {
+  display: block;
+  width: 50%;
+}
+
+.picture__main {
+  position: absolute;
+  left: 0%;
+  top: -250px;
+  transform: translateX(50%);
+  width: 100%;
+} 
+
+.picture__main img {
+  width: 100%;
+}
+
+.content__group {
+  width: 80%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.contnet__header h1 {
+  font-size: 30px; 
+  text-align: center;
+}
+
+.footer__group {
+  display: none;
+}
+
