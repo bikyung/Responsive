@@ -1,0 +1,33 @@
+.inner {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 470px;
+}
+
+.picture__image {
+  height: 200px;
+  border-radius: 10px 10px 0 0px;
+}
+
+/* picture fin  */
+
+section.main__group {
+  padding: 30px 38px; 
+}
+
+section .main__header {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+section .main__description {
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+section .main__footer {
+  margin-top: 30px;
+
+}
