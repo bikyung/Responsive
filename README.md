@@ -11,6 +11,7 @@
 
 <img src="images/responsive.gif" alt="responsive" width="700">
 <br>
+
 ___
 
 ## Responsive2. 유튜브 클론코딩
@@ -18,3 +19,17 @@ ___
 <img src="images/responsive_youtube.gif" alt="responsive" width="700">
 
 ___
+
+## Responsive3. faq-accordion
+<br>
+<img src="images/responsive3.gif" alt="responsive3" width="700">
+
+___
+
+## Responsive4. Article Preview Component
+<br>
+
+
+
+<img src="images/responsive4.gif" alt="responsive4" width="700">
+
