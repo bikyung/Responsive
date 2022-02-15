@@ -22,12 +22,16 @@ ___
 
 ## Responsive3. faq-accordion
 <br>
-<img src="./images/responsive3.gif" alt="responsive3" width="700">
+
+
+<img src="https://user-images.githubusercontent.com/94296848/154086455-999d1293-42ef-458a-ba2d-aba530408c0d.gif
+" alt="responsive3" width="700">
 
 ___
 
 ## Responsive4. Article Preview Component
 <br>
 
-<img src="./images/responsive4.gif" alt="responsive4" width="700">
+<img src="https://user-images.githubusercontent.com/94296848/154088195-4a80b497-c484-4f16-b117-86188db85a6b.gif
+" alt="responsive4" width="700">
 
