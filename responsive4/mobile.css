@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 470px;
+  height: 500px;
 }
 
 .picture__image {
@@ -24,10 +24,50 @@ section .main__header {
 
 section .main__description {
   font-size: 12px;
-  line-height: 1.25;
+  line-height: 1.8;
+}
+
+section .main__image.active {
+  display: none;
+}
+
+section .main__name.active {
+  display: none;
 }
 
 section .main__footer {
   margin-top: 30px;
+}
 
+section .main__share.mobile__share {
+  margin-left: auto;
+}
+
+section .main__share--btn {
+  background-color: var(--color--back);
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+section .main__share--menu.mobile {
+  position: absolute;
+  background-color:var(--color--share);
+  width: 350px;
+  height: 70px;
+  display: flex;
+  top: -16px;
+  left: -277px;
+  align-items: center;
+  border-radius: 0px 0 15px 15px;
+  transition: all 0.7s;
+  z-index: -1;
+}
+
+section .main__share--menu::after {
+  content: '';
+  transform: rotate(0deg);
+  bottom: 0px;
 }

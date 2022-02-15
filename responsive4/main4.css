@@ -1,6 +1,6 @@
 :root {
   --color--white: #fff;
-  --color--share: #48556A;
+  --color--share: #566172;
   --color--back: #f2f2f2;
 }
 
@@ -89,7 +89,6 @@ section .main__name span {
 section .main__share {
   position: relative;
   margin-left: auto;
-
 }
 
 section .main__share--btn {
@@ -98,14 +97,16 @@ section .main__share--btn {
   border-radius: 20px;
   padding: 10px;
   cursor: pointer;
+  transition: all 0.7s;
 }
 
-section .main__share--btn path.active, 
 section .main__share--btn.active {
-  background-color:var(--color--share);
+  background-color: #9ba3ad;
+}
+
+section .main__share--btn path.active {
   fill:#fff;
 }
-
 section .main__share--menu {
   position: absolute;
   background-color:var(--color--share);
@@ -116,7 +117,13 @@ section .main__share--menu {
   left: -95px;
   align-items: center;
   border-radius: 15px;
-  display:none;
+  transition: all 0.7s;
+  opacity: 0;
+}
+
+section .main__share--menu.active {
+  display: flex;
+  opacity: 1;
 }
 
 section .main__share--menu::after {
