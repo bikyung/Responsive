@@ -6,7 +6,7 @@
 ---
 
 
-<br>### 헤더 반응형 완성본
+### 헤더 반응형 완성본
 <br>
 
 <img src="images/responsive.gif" alt="responsive" width="700">
