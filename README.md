@@ -22,14 +22,12 @@ ___
 
 ## Responsive3. faq-accordion
 <br>
-<img src="images/responsive3.gif" alt="responsive3" width="700">
+<img src="./images/responsive3.gif" alt="responsive3" width="700">
 
 ___
 
 ## Responsive4. Article Preview Component
 <br>
 
-
-
-<img src="images/responsive4.gif" alt="responsive4" width="700">
+<img src="./images/responsive4.gif" alt="responsive4" width="700">
 
